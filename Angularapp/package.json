@@ -1,8 +1,7 @@
 {
   "version": "1.0.0",
-  "description": "NO404 administration panel",
-  "name": "no404 backoffice",
-  "readme": "no404 backoffice",
+  "description": "An Angular 2 & TypeScript web application made with ASP.NET Core, for fun and curiosity",
+  "name": "angular2typescriptaspnetcorewebapp",
   "license": "MIT",
   "dependencies": {
     "@angular/common": "~2.2.0",
@@ -14,14 +13,12 @@
     "@angular/platform-browser-dynamic": "~2.2.0",
     "@angular/router": "~3.2.0",
     "@angular/upgrade": "~2.2.0",
-
     "angular-in-memory-web-api": "~0.1.15",
     "core-js": "^2.4.1",
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.0-beta.12",
     "systemjs": "0.19.39",
     "zone.js": "^0.6.25",
-
     "bower": "1.7.9",
     "jquery": "^3.1.0"
   },

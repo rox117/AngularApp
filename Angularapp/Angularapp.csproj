@@ -7,6 +7,21 @@
   <PropertyGroup>
     <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Angularapp\**" />
+    <Compile Remove="wwwroot\lib\node_modules\**" />
+    <Content Remove="Angularapp\**" />
+    <Content Remove="wwwroot\lib\node_modules\**" />
+    <EmbeddedResource Remove="Angularapp\**" />
+    <EmbeddedResource Remove="wwwroot\lib\node_modules\**" />
+    <None Remove="Angularapp\**" />
+    <None Remove="wwwroot\lib\node_modules\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\js\systemjs.config.js" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
     <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
